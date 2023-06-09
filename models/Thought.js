@@ -2,25 +2,18 @@ const {Schema, Types, model}=require('mongoose');
 
 const reactionSchema = new mongoose.Schema({
     reactionId: {
-    // Mongoose's ObjectId data type
         type: Schema.Types.ObjectId,
     // Default value is set to a new ObjectId   
         default:()=> new Types.ObjectId()
     },
-    reactionBody:{
-        type:String, required:true, maxlength:280
-    },
-    username:{
-        type:String, required:true
-    },
+    reactionBody:{ type:String, required:true, maxlength:280},
+    username:{type:String, required:true},
     //todo: add created at
 },
 { 
-    toJSON:{
-        virtuals: true, getters:true
-    },
+    toJSON:{virtuals: true, getters:true},
      id:false
-})
+});
 
 
 const thoughtSchema =new mongoose.Schema({
