@@ -9,7 +9,7 @@ const reactionSchema = new Schema({
     reactionBody:{ type:String, required:true, maxlength:280},
     username:{type:String, required:true},
      // Use built in date method to get current date
-    lastReacted: { type: Date, default: Date.now },
+  lastReacted: { type: Date, default: Date.now },
 },
 { 
     toJSON:{virtuals: true, getters:true},
@@ -21,8 +21,9 @@ const thoughtSchema =new Schema({
     thoughtText: {type:String, required:true, minlength: 1, maxlength:280},
     username:{type:String, required:true},
     reactions:[reactionSchema],
-    // Use built in date method to get current date
-    timeOfThought: { type: Date, default: Date.now },
+      
+// Use built in date method to get current date
+  timeOfThought: { type: Date, default: Date.now },
 },
 {
     toJSON:{virtuals: true, getters: true},
