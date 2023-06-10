@@ -25,7 +25,7 @@ Git clone this repository using terminal and open the file in VS Code (or in the
 
 ## Acknowledgements
 
-This project is done for UNB Bootcamp, thanks for the opportunity. I am thankful to my instructor for the help. Code inspiration from chris6661, Morganbb104, joce1ynn and civ187 on github. askBCS was very helpful in solving the bugs in my code. 
+This project is done for UNB Bootcamp, thanks for the opportunity. I am thankful to my instructor for the help. Code inspiration from chris6661, Morganbb104, joce1ynn and civ187 on github. askBCS was very helpful in solving the bugs in my code and answering all the questions that I putup there. 
 
 ## Questions
 
