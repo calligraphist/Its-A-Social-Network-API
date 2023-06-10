@@ -1,15 +1,16 @@
 const {Schema, Types, model}=require('mongoose');
+const moment = require('moment');
 
 const reactionSchema = new Schema({
-    reactionId: {
-        type: Schema.Types.ObjectId,
+    reactionId: { type: Schema.Types.ObjectId,
     // Default value is set to a new ObjectId   
         default:()=> new Types.ObjectId()
     },
     reactionBody:{ type:String, required:true, maxlength:280},
     username:{type:String, required:true},
      // Use built in date method to get current date
-  lastReacted: { type: Date, default: Date.now },
+     createdAt: { type: Date, default: Date.now, 
+    get: createdAt => moment(createdAt).format('MMM DD, YYYY [at] hh:mm a') },
 },
 { 
     toJSON:{virtuals: true, getters:true},
@@ -23,7 +24,8 @@ const thoughtSchema =new Schema({
     reactions:[reactionSchema],
       
 // Use built in date method to get current date
-  timeOfThought: { type: Date, default: Date.now },
+createdAt: { type: Date, default: Date.now,
+    get: createdAt => moment(createdAt).format('MMM DD, YYYY [at] hh:mm a') },
 },
 {
     toJSON:{virtuals: true, getters: true},
