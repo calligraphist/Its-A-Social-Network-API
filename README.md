@@ -18,20 +18,15 @@ This text editoris an application where the user can create notes or code snippe
 
 ## Installation 
 
-Git clone this repository using terminal and open the file in VS Code (or in the editor you work with). Install dependencies using "npm install" or "npm i" in terminal and make sure that you are in the reposetory directory, before running "npm install".This will install all necessary dependencies since they are all included in the package.json. Now you are ready to use the application.
+Git clone this repository using terminal and open the file in VS Code (or in the editor you work with). Install dependencies using "npm install" or "npm i" in terminal and make sure that you are in the reposetory directory, before running "npm install".This will install all necessary dependencies since they are all included in the package.json. Now you are ready to use the application using "npm start".
 
-## Usage
+##  Walkthrough video
 
-To use this app, simply open it in the browser using the deployed app link.
-It can be installed on your computer using the install button on the browser and can be used offline.
 
-## Deployed Heroku link
-
-https://boiling-anchorage-52650.herokuapp.com/ 
 
 ## Acknowledgements
 
-This project is done for UNB Bootcamp, thanks for the opportunity. I am thankful to my instructor for the help. Code inspiration from aungy5 and stellalph on github.
+This project is done for UNB Bootcamp, thanks for the opportunity. I am thankful to my instructor for the help. Code inspiration from on github.
 
 
 
