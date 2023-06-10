@@ -14,7 +14,7 @@
 6. Contact for questions
 
 ## Description of Project
-This text editoris an application where the user can create notes or code snippets and is developed by using starter code. It can function both online and offline. Needed to use a variety of data persistence options in order to ensure that data is not lost in any scenario. The application first looks to use the data in the indexedDB to populate the editor, then if it cannot access that it will use local storage. For use offline, this application can be downloaded to your desktop as an application.
+This social network api is an application that uses a MongoDB database so that the website can handle large amounts of unstructured data using nosql database (Mongoose ODM), Express.js for routing, and the moment package to format time stamps. where the user can create, add, delete, get, and update users, friends of users, thoughts, and reactions on those thoughts.
 
 ## Installation 
 
@@ -26,7 +26,7 @@ Git clone this repository using terminal and open the file in VS Code (or in the
 
 ## Acknowledgements
 
-This project is done for UNB Bootcamp, thanks for the opportunity. I am thankful to my instructor for the help. Code inspiration from on github.
+This project is done for UNB Bootcamp, thanks for the opportunity. I am thankful to my instructor for the help. Code inspiration from chris6661, Morganbb104, joce1ynn and civ187 on github. askBCS was very helpful in solving the bugs in my code. 
 
 
 
