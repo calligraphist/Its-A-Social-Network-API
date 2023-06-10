@@ -13,7 +13,7 @@
 5. Contact for questions
 
 ## Description of Project
-This social network api is an application that uses a MongoDB database so that the website can handle large amounts of unstructured data using nosql database (Mongoose ODM), Express.js for routing, and the moment package to format time stamps. where the user can create, add, delete, get, and update users, friends of users, thoughts, and reactions on those thoughts.
+This social network api is an application that uses a MongoDB database so that the website can handle large amounts of unstructured data using nosql database (Mongoose ODM), Express.js for routing, and the moment package to format time stamps. where the user can create, add, delete, get, and update users, friends of users, thoughts, and reactions on those thoughts. All these things are tested in insomnia and can be seen tested in walkthrough video.
 
 ## Installation 
 
@@ -21,7 +21,7 @@ Git clone this repository using terminal and open the file in VS Code (or in the
 
 ##  Walkthrough video
 
-
+https://watch.screencastify.com/v/VAe3WEkNXgjEA5Al4ovr 
 
 ## Acknowledgements
 
